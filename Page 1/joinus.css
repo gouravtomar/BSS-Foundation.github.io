@@ -1,0 +1,86 @@
+/* Common style start here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+button, 
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(173, 161, 161);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.Fullcontainer {
+    width: 100%;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+/* common style end */
+
+/* home style start */
+header {
+    width: 100%;
+    background-color: #4ABDAC;
+    border: 1px solid black;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+header .container.logo img{
+    height: 100px;
+}
+.mynav ul {
+    list-style-type:none;
+}
+.mynav ul li {
+    display: inline-block;
+}
+.mynav ul li a{
+    display:inline-block;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.3s all;
+    font-size: 19px;
+    color:rgb(12, 12, 12);
+}
+.mynav ul li a:hover {
+    text-decoration: underline;
+    color: rgb(243, 230, 230);
+}
+.info{
+    padding-left: 68px;
+    padding-top: 28px;
+}
+.jns{
+    color: black;  
+}
+.my-form{
+    padding-left: 68px;
+    padding-top: 28px;
+    float: left;
+    width: 50%;
+    position: relative;
+    min-height: 1px;
+    box-sizing: border-box;
+}
+.form-control {
+    display: block;
+    width: 75%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
